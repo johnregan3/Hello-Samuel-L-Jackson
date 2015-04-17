@@ -55,6 +55,7 @@ class Hello_Samuel_L_Jackson {
 
 	public static function hello_slj_get_quote() {
 		$quotes = apply_filters( 'hello_slj_quotes', array(
+			__( 'AK-47 The very best there is. When you absolutely positively got to kill every mother fucker in the room, except no substitute.' ),
 			__( 'I\'m serious as a heart attack', 'hello_slj' ),
 			__( 'Is she dead, yes or no?', 'hello_slj' ),
 			__( 'Hold on to your butts!', 'hello_slj' ),
