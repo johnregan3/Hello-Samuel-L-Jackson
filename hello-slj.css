@@ -1,13 +1,23 @@
 #slj {
 	float: right;
-	padding-right: 15px;
-	padding-top: 5px;
+	padding: 5px 10px;
 	margin: 0;
-	font-size: 11px;
+	font-size: 12px;
+	line-height: 1.6666;
 }
 
 .rtl #slj {
 	float: left;
-	padding-right: 0;
-	padding-left: 15px;
 }
+.block-editor-page #slj {
+    display: none;
+}
+@media screen and (max-width: 782px) {
+    #slj,
+    .rtl #slj {
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
